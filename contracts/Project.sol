@@ -9,18 +9,13 @@ contract IdentityRegistry {
         owner = msg.sender;
     }
 
-    modifier onlyOwner() {
-        require(msg.sender == owner, "Not authorized");
-        _;
-    }
+  
 
     function registerIdentity(address user) public onlyOwner {
         isVerified[user] = true;
     }
 
-    function verifyIdentity(address user) public view returns (bool) {
-        return isVerified[user];
-    }
+ 
 
     function revokeIdentity(address user) public onlyOwner {
         isVerified[user] = false;
