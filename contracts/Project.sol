@@ -11,13 +11,14 @@ contract IdentityRegistry {
 
   
 
-    function registerIdentity(address user) public onlyOwner {
+    function register(address user) public onlyOwner {
         isVerified[user] = true;
     }
 
  
 
-    function revokeIdentity(address user) public onlyOwner {
+    function revoke(address user) public onlyOwner {
         isVerified[user] = false;
     }
 }
+
