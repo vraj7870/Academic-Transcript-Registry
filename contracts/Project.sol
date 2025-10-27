@@ -20,5 +20,9 @@ contract IdentityRegistry {
     function revoke(address user) public onlyOwner {
         isVerified[user] = false;
     }
+    function revokeidt(address user) public onlyOwner {
+        isVerified[user] = false;
+    }
 }
+
 
