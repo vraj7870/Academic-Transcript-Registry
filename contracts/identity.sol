@@ -79,4 +79,15 @@ contract IdentityRegistry {
         Credential memory cred = credentials[user][credentialHash];
         return (cred.issuer, cred.valid, cred.issuedAt, cred.comment);
     }
+ //mapping: user =>credentialHash =>Credential
+    mapping(address => mapping(bytes32=>Credential)) public credentials;
+
+    //mapping :allowed issuers (eg: universities, kyc companies)
+    mapping (address=>bool) public isIssuer;
+
+    //deployer / owner (admin of contract)
+    address public owner;
+
+    //Event for off-chain tracking 
+
 }
