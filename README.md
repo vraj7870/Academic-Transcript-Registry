@@ -86,15 +86,7 @@ Students’ data and transcripts are linked to their on-chain wallets.
 
 Hash-based verification ensures no private data is directly stored on-chain.
 
-🛣️ Future Enhancements
 
-✅ Multi-institution support
-
-✅ DAO governance for educational councils
-
-✅ Integration with National Digital University systems
-
-✅ NFT-based credentials for achievements and courses
 
 👥 Contributors
 
