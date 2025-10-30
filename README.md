@@ -2,13 +2,7 @@
 
 A decentralized Academic Transcript Registry that allows universities, students, and verifiers to securely issue, store, and verify academic records on the blockchain — ensuring authenticity, transparency, and tamper-proof verification.
 
-🚀 Project Overview
-
-Traditional academic transcript systems are prone to fraud, forgery, and time-consuming verification processes.
-The Academic Transcript Registry (ATR) solves these issues using blockchain-based verification and smart contracts.
-
-Each transcript is represented as an immutable record on-chain that can be verified by employers, institutions, or government agencies without third-party involvement.
-
+🚀
 🧠 Core Idea
 
 Universities issue verified transcripts using their digital identity.
