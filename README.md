@@ -86,3 +86,8 @@ Hash-based verification ensures no private data is directly stored on-chain.
 
 Project Lead: Vipin Raj
 Institution: IIT Kharagpur
+
+contract details
+0x8b28aF382553002734b5af4c66D10ca02f0C28de
+<img width="1834" height="885" alt="image" src="https://github.com/user-attachments/assets/5bcfe487-35d8-46ac-9ff2-0b6591285c4b" />
+
